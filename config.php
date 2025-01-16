@@ -22,7 +22,7 @@ function replace_in_file(string $file, array $replacements): void
 
 function ask(string $question, string $default = ''): string
 {
-    $answer = readline($question.($default ? " ({$default})" : null).': ');
+    $answer = readline($question.($default ? " ($default)" : null).': ');
 
     if (!$answer) {
         return $default;
@@ -93,5 +93,7 @@ foreach ($files as $file) {
         default:
     }
 }
+
+rename('bin/bin', 'bin/'.$package_slug);
 
 echo PHP_EOL;
