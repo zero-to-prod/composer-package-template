@@ -32,7 +32,8 @@
         "php": ">=7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "zero-to-prod/package-helper": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -43,5 +44,8 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
-    }
+    },
+    "bin": [
+        "bin/:package_slug"
+    ]
 }
