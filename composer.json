@@ -1,6 +1,6 @@
 {
   "name": "zero-to-prod/:slug",
-  "description": ":slug",
+  "description": ":description",
   "license": "MIT",
   "type": "library",
   "keywords": [
