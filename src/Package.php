@@ -1,8 +1,8 @@
 <?php
 
-namespace Zerotoprod\:package_namespace;
+namespace Zerotoprod\:namespace;
 
-class :package_namespace
+class :namespace
 {
 
 }
