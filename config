@@ -91,6 +91,6 @@ foreach ($files as $file) {
     }
 }
 
-rename('bin/bin', 'bin/'.$slug);
+rename('bin/bin', 'bin/zero-to-prod-'.$slug);
 
 echo PHP_EOL;
